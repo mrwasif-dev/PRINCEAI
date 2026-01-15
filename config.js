@@ -28,6 +28,7 @@ import _0x44e1c3 from'@whiskeysockets/baileys';
 
 _0x2c7a14[_0x4f1a(0x12f)]();
 
+/* ===== GLOBALS ===== */
 global[_0x4f1a(0x138)]=_0x44e1c3;
 global[_0x4f1a(0x134)]=_0x19f7a1;
 global[_0x4f1a(0x13b)]=_0x2e1b0a;
@@ -35,6 +36,7 @@ global[_0x4f1a(0x140)]=_0x36a9f4;
 global[_0x4f1a(0x13d)]=_0x5d3b90;
 global['fs']=_0x4a6f2e;
 
+/* ===== BOT INFO ===== */
 global[_0x4f1a(0x12c)]='🛡️WASIF-BOT-MD🛡️';
 global[_0x4f1a(0x141)]='Wasif♥️';
 global[_0x4f1a(0x12d)]='Wasif💚';
@@ -42,19 +44,27 @@ global[_0x4f1a(0x139)]='Wasif';
 global[_0x4f1a(0x142)]='Wasif';
 global[_0x4f1a(0x136)]=!![];
 
+/* ===== SESSION ID (ADDED) ===== */
+global[_0x4f1a(0x147)] =
+'Prince~scl/fi/v95u5ep9yttw411g7uyjv/1XgPwOrO1D.json?rlkey=3mxx4x2wbumufuwu8jy4as7ep&dl=0';
+
+/* ===== ENV ===== */
 global[_0x4f1a(0x130)]=process['env'][_0x4f1a(0x135)]||'';
 global[_0x4f1a(0x133)]=process['env'][_0x4f1a(0x12e)]==='true';
 global['wm']=process['env'][_0x4f1a(0x143)]||'Wasif Bot';
 
+/* ===== LIMITS ===== */
 global[_0x4f1a(0x144)]=0x45;
 global[_0x4f1a(0x137)]=0x2;
 
+/* ===== EMOJIS ===== */
 global[_0x4f1a(0x13c)]='⏳';
 global[_0x4f1a(0x146)]='✅';
 global[_0x4f1a(0x132)]='❌';
 global[_0x4f1a(0x12b)]='🌀';
 global[_0x4f1a(0x129)]='🤭';
 
+/* ===== HOT RELOAD ===== */
 const _0x2a6d7c=fileURLToPath(import.meta.url);
 watchFile(_0x2a6d7c,()=>{
 unwatchFile(_0x2a6d7c);
@@ -62,7 +72,7 @@ console['log'](_0x1c2d6a[_0x4f1a(0x13e)](_0x4f1a(0x128)));
 import(_0x2a6d7c+'?update='+Date['now']());
 });
 
-function _0x2c9e(_0x1b4e2f,_0x4c2b59){
+function _0x2c9e(_0x1b4e2f){
 _0x1b4e2f=_0x1b4e2f-0x128;
 const _0x5a7cf3=_0x5a7c();
 return _0x5a7cf3[_0x1b4e2f];
@@ -73,8 +83,9 @@ const _0x3d8a4f=[
 'config','Wasif Bot','BOT_NAME','author','dotenv','Wasif',
 'OWNER_NUMBER','business','cheerio','axios','moment',
 'node-fetch','fs','redBright','wait','done','error','rwait',
-'dmoji','Update\x20config.js','env','BUSINESS_MODE','botNumber'
+'dmoji','Update\x20config.js','env','BUSINESS_MODE','botNumber',
+'SESSION_ID'
 ];
 _0x5a7c=function(){return _0x3d8a4f;};
 return _0x5a7c();
-               }
+  }
